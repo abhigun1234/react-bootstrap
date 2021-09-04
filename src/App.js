@@ -10,6 +10,7 @@ import ParentComponent from './ParentComponent';
 import ConditionalRendering from './ConditionalRendering';
 import IplTeams from './IplTeams';
 import ParentC from './ParentC';
+import Ttwentey from './Ttwentey';
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,8 @@ function App() {
      {/* <ConditionalRendering></ConditionalRendering> */}
      {/* <IplTeams></IplTeams> */}
      {/* <ParentComponent name="abhishek"></ParentComponent> */}
-     <Calc></Calc>
+     {/* <Calc></Calc> */}
+     <Ttwentey></Ttwentey>
     </div>
   );
 }
