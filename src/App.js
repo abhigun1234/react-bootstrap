@@ -3,13 +3,23 @@ import './App.css';
 import Header from './Header';
 import Dashboard from './Dashboard';
 import Footer from './Footer';
-
+import Calc from './Calc';
+import Register from './Registration';
+import EventHandling from './EventHandling';
+import ParentComponent from './ParentComponent';
+import ConditionalRendering from './ConditionalRendering';
+import IplTeams from './IplTeams';
+import ParentC from './ParentC';
 function App() {
   return (
     <div className="App">
-    <Header/>
-    <Dashboard/>
-    <Footer></Footer>
+     {/* <Register></Register> */}
+     {/* <EventHandling></EventHandling> */}
+     {/* <ParentComponent></ParentComponent> */}
+     {/* <ConditionalRendering></ConditionalRendering> */}
+     {/* <IplTeams></IplTeams> */}
+     {/* <ParentComponent name="abhishek"></ParentComponent> */}
+     <Calc></Calc>
     </div>
   );
 }
