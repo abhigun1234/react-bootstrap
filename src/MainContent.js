@@ -22,6 +22,8 @@ export default class MainContent extends Component {
       { id: 5, name: "John", phone: "781-778", address: { city: "New York" } },
     ],
   };
+  // state={name:abhishek}
+
 
   render() {
     return (
@@ -48,13 +50,13 @@ export default class MainContent extends Component {
             </tr>
           </thead>
           <tbody>
-            {this.state.customers.map((cust) => {
+            {this.state.customers.map((must) => {
               return (
-                <tr key={cust.id}>
-                  <td>{cust.id}</td>
-                  <td>{cust.name}</td>
-                  <td>{cust.phone}</td>
-                  <td>{cust.address.city}</td>
+                <tr key={must.id}>
+                  <td>{must.id}</td>
+                  <td>{must.name}</td>
+                  <td>{must.phone}</td>
+                  <td>{must.address.city}</td>
                 </tr>
               );
             })}
