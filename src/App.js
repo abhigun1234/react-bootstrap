@@ -6,11 +6,18 @@ import Footer from './Footer';
 import Calc from './Calc';
 import Register from './Registration';
 import EventHandling from './EventHandling';
-import ParentComponent from './ParentComponent';
 import ConditionalRendering from './ConditionalRendering';
 import IplTeams from './IplTeams';
-import ParentC from './ParentC';
 import Ttwentey from './Ttwentey';
+import FormsDemo from './FormsDemo';
+import Custumer from './Custumer';
+import MainContent from './MainContent';
+import ConditionalTable from './ConditionalTable';
+import Parent from './sundaysept/Parent';
+import FragmentDemo from './sundaysept/FragmentDemo';
+import ParentData from './sundaysept/ParentData';
+
+
 function App() {
   return (
     <div className="App">
@@ -21,7 +28,14 @@ function App() {
      {/* <IplTeams></IplTeams> */}
      {/* <ParentComponent name="abhishek"></ParentComponent> */}
      {/* <Calc></Calc> */}
-     <Ttwentey></Ttwentey>
+     {/* <Ttwentey></Ttwentey> */}
+     {/* <FormsDemo></FormsDemo> */}
+     {/* <Custumer></Custumer> */}
+     {/* <MainContent></MainContent> */}
+     {/* <ConditionalTable></ConditionalTable> */}
+     {/* <Parent></Parent> */}
+     {/* <FragmentDemo></FragmentDemo> */}
+     <ParentData></ParentData>
     </div>
   );
 }
