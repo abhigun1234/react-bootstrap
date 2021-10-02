@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <MyHeader ></MyHeader>
+      
       <Switch>
       
         <Route path="/" exact component={Dashboard}></Route>
