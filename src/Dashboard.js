@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class Dashboard extends Component {
     render() {
         return (
-            <div>Dashboard  <Button className="btn btn-primary">pk</Button></div>
+            <div>Dashboard Diploying App in Heroku <Button className="btn btn-primary">pk</Button></div>
            
           )  }
       }
